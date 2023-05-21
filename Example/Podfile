@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MTAlgorithm_Example' do
+  pod 'MTAlgorithm', :path => '../'
+
+  target 'MTAlgorithm_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
