@@ -17,18 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.swift_version = '5.0'
+  s.description      = 'algorithm for business'
 
-  s.homepage         = 'https://github.com/Fox/MTAlgorithm'
+  s.homepage         = 'https://github.com/hippiefox/MTAlgorithm.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fox' => 'foxhippie5@gmail.com' }
-  s.source           = { :git => 'https://github.com/Fox/MTAlgorithm.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hippiefox/MTAlgorithm.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'MTAlgorithm/Classes/**/*'
   
@@ -38,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'GTMBase64'
 end

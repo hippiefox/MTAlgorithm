@@ -1,0 +1,6 @@
+framework module MTAlgorithm {
+  umbrella header "MTAlgorithm-umbrella.h"
+
+  export *
+  module * { export * }
+}

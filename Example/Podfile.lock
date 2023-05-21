@@ -1,0 +1,23 @@
+PODS:
+  - GTMBase64 (1.0.1)
+  - MTAlgorithm (0.1.0):
+    - GTMBase64
+
+DEPENDENCIES:
+  - MTAlgorithm (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GTMBase64
+
+EXTERNAL SOURCES:
+  MTAlgorithm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  MTAlgorithm: 4fc8878b57ab1e451339bc0f62a27e0fcd33e1bb
+
+PODFILE CHECKSUM: 8bdee46fef18c02b312a83c4a6e8baa9d87c210f
+
+COCOAPODS: 1.12.1
